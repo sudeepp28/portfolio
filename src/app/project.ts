@@ -20,7 +20,7 @@ export const  projects = [
       },
       {
         title: 'FoodLab',
-        link: "https://food-lab-angular.vercel.app/",
+        link: "https://ionic-foddlab.vercel.app/",
         image: 'img5.jpeg'
       },
       {
