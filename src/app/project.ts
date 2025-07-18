@@ -24,8 +24,8 @@ export const  projects = [
         image: 'img5.jpeg'
       },
       {
-        title: 'Project-6',
-        link: '#',
+        title: 'Freelance project',
+        link: 'https://shree-puja-travels.vercel.app/',
         image: 'img6.jpg'
       }
   ];
