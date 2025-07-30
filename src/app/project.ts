@@ -21,7 +21,7 @@ export const  projects = [
       {
         title: 'FoodLab',
         link: "https://ionic-foddlab.vercel.app/",
-        image: 'img5.jpeg'
+        image: 'img 5.png'
       },
       {
         title: 'Freelance Project',
