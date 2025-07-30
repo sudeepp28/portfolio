@@ -12,11 +12,11 @@ export const  projects = [
     {
       title: 'Crypto-Information',
       link: "https://crypto-information.vercel.app/coin-list",
-      image: 'img3.jpeg'
+      image: 'img 3.png'
     },
       {  title: 'E-Commerce app',
         link: 'https://ecommerce-app-98lo.vercel.app/home',
-        image: 'img4.jpeg'
+        image: 'img 4.png'
       },
       {
         title: 'FoodLab',
