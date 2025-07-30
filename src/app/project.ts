@@ -24,8 +24,13 @@ export const  projects = [
         image: 'img5.jpeg'
       },
       {
-        title: 'Freelance project',
+        title: 'Freelance Project',
         link: 'https://shreepuja-travels.netlify.app/',
         image: 'img6.jpg'
+      },
+      {
+        title:' Freelance Projects',
+        link:'https://ramesh-dalal-associates.vercel.app/home',
+        image:'img 7.png'
       }
   ];
