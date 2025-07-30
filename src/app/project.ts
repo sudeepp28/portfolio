@@ -25,7 +25,7 @@ export const  projects = [
       },
       {
         title: 'Freelance project',
-        link: 'https://shree-puja-travels.vercel.app/',
+        link: 'https://shreepuja-travels.netlify.app/',
         image: 'img6.jpg'
       }
   ];
