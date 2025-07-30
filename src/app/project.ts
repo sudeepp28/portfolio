@@ -26,7 +26,7 @@ export const  projects = [
       {
         title: 'Freelance Project',
         link: 'https://shreepuja-travels.netlify.app/',
-        image: 'img6.jpg'
+        image: 'img 6.png'
       },
       {
         title:' Freelance Projects',
