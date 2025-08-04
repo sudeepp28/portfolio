@@ -30,7 +30,7 @@ export const  projects = [
       },
       {
         title:' Freelance Projects',
-        link:'https://ramesh-dalal-associates.vercel.app/home',
+        link:'https://advrameshdalal.com/home',
         image:'img 7.png'
       }
   ];
