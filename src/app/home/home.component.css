@@ -29,7 +29,7 @@ span{
 .home-content span{
     position: relative;
 }
-.home-content span::after{
+/* .home-content span::after{
     content: "";
     position: absolute;
     height: 100%;
@@ -50,7 +50,7 @@ span{
         left: -2;
     }
     
-}
+} */
 
 .home-content h1{
     margin-top: 1rem;
