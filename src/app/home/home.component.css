@@ -113,3 +113,9 @@ span {
     margin: 1rem 0.5rem;
   }
 }
+.typing {
+  border-right: 3px solid #59B2F4;
+  padding-right: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+}
