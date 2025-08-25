@@ -1,68 +1,148 @@
+/* ===== Services Section ===== */
 .services {
-   height: 100vh;
+   min-height: 100vh; /* use min-height instead of fixed */
    background-color: #191f36;
    margin-top: 0;
-   padding-top: 70px; /* adjust based on your header height */
+   padding: 70px 2rem 60px; /* spacing inside */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 
 .services h2 {
-   margin-top: 0;
-   margin-bottom: 5rem;
-   font-size: 4.5rem;
+   margin: 0 0 3rem;
+   font-size: 3rem;
    text-align: center;
+   color: #fff;
 }
 
- .heading span{
-    color: #59B2F4;
- }
+.heading span {
+   color: #59B2F4;
+}
 
- .services-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 5rem;
-   padding-bottom: 60px;
- }
- .services-container .services-box{
-    flex: 1 1 30rem;
-    background: #262B40;
-    padding: 3rem 2rem 4rem ;
-    border-radius: 2rem;
-    text-align: center;
-    border: .2rem solid #262B40; 
-    box-shadow: 0 0 40px #262B40;
-    transition: .5s ease;
- }
+/* ===== Services Container ===== */
+.services-container {
+   display: flex;
+   justify-content: center;
+   align-items: stretch;
+   flex-wrap: wrap;
+   gap: 2rem;
+   width: 100%;
+   max-width: 1200px;
+   padding-bottom: 20px;
+}
 
- .services-container .services-box:hover{
-    border-color: #59B2F4  ;
-    transform: scale(1.02);
-    box-shadow: 0 0 10px #59B2F4;
-    transform: rotateZ(-5deg) rotateX(-15deg) rotateY(-20deg);
-    transition: transform 1s ease;
- }
+.services-container .services-box {
+   flex: 1 1 300px; /* flexible for mobile */
+   background: #262B40;
+   padding: 2rem 1.5rem 3rem;
+   border-radius: 1.5rem;
+   text-align: center;
+   border: 0.2rem solid #262B40;
+   box-shadow: 0 0 30px #1a2035;
+   transition: transform 0.6s ease, box-shadow 0.6s ease, border-color 0.6s ease;
+   color: #fff;
+}
 
- .services-box i{
-    font-size: 7rem;
-    color: #59B2F4;
- }
- .services-box h3{
-    font-size: 2.6rem;
-    font-weight: 1000;
-    letter-spacing: 0.2rem;
- }
- .services-box:nth-child(1){
-    animation: moveRight 4s ease forwards;
- }
- .services-box:nth-child(2){
-    animation: moveDown 4s ease forwards;
- }
- .services-box:nth-child(3){
-    animation: moveLeft 4s ease forwards;
- }
- .services-box p{
-    font-size: 1.6rem;
-    margin: 1rem 0 3rem ;
-    line-height: 2.5rem;
- }
+.services-container .services-box:hover {
+   border-color: #59B2F4;
+   transform: scale(1.03) rotateZ(-3deg) rotateX(-5deg) rotateY(-5deg);
+   box-shadow: 0 0 15px #59B2F4;
+}
+
+.services-box i {
+   font-size: 4rem;
+   color: #59B2F4;
+   margin-bottom: 1rem;
+}
+
+.services-box h3 {
+   font-size: 1.8rem;
+   font-weight: 700;
+   letter-spacing: 0.05rem;
+   margin-bottom: 1rem;
+}
+
+.services-box p {
+   font-size: 1rem;
+   margin: 0 0 2rem;
+   line-height: 1.6rem;
+   color: #ddd;
+}
+
+/* ===== Animations ===== */
+.services-box:nth-child(1) {
+   animation: moveRight 2s ease forwards;
+}
+.services-box:nth-child(2) {
+   animation: moveDown 2s ease forwards;
+}
+.services-box:nth-child(3) {
+   animation: moveLeft 2s ease forwards;
+}
+
+/* Example animations */
+@keyframes moveRight {
+   from { opacity: 0; transform: translateX(-50px); }
+   to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes moveDown {
+   from { opacity: 0; transform: translateY(-50px); }
+   to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes moveLeft {
+   from { opacity: 0; transform: translateX(50px); }
+   to   { opacity: 1; transform: translateX(0); }
+}
+
+/* ===== Responsive Breakpoints ===== */
+@media (max-width: 992px) {
+   .services h2 {
+      font-size: 2.5rem;
+   }
+
+   .services-box i {
+      font-size: 3.5rem;
+   }
+
+   .services-box h3 {
+      font-size: 1.6rem;
+   }
+
+   .services-box p {
+      font-size: 0.95rem;
+   }
+}
+
+@media (max-width: 600px) {
+   .services {
+      padding: 50px 1rem;
+   }
+
+   .services h2 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+   }
+
+   .services-container {
+      gap: 1.5rem;
+   }
+
+   .services-container .services-box {
+      padding: 1.5rem 1rem 2rem;
+   }
+
+   .services-box i {
+      font-size: 3rem;
+   }
+
+   .services-box h3 {
+      font-size: 1.4rem;
+   }
+
+   .services-box p {
+      font-size: 0.9rem;
+      line-height: 1.4rem;
+   }
+}
