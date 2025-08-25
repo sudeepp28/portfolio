@@ -32,5 +32,10 @@ export const  projects = [
         title:' Freelance Project',
         link:'https://advrameshdalal.com/home',
         image:'img 7.png'
+      },
+      {
+        title:' Freelance Project',
+        link:'https://www.navacabs.com/home',
+        image:'img 8.png'
       }
   ];
