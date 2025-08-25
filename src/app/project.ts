@@ -25,11 +25,11 @@ export const  projects = [
       },
       {
         title: 'Freelance Project',
-        link: 'https://shreepuja-travels.netlify.app/',
+        link: 'https://shreepujacabs.netlify.app/home',
         image: 'img 6.png'
       },
       {
-        title:' Freelance Projects',
+        title:' Freelance Project',
         link:'https://advrameshdalal.com/home',
         image:'img 7.png'
       }
